@@ -1,0 +1,296 @@
+#top-bar{
+	margin-left: 20px;
+	margin-top: 40px;
+}
+#moneylogo{
+	position:absolute;
+	top:20px;
+	width: 40px;
+	z-index:4;
+}
+#wallettext{
+	height: 30px;
+	position: absolute;
+	top: 13px;
+	margin-left: 22px;
+}
+#menulogo{
+	width: 40px;
+	top:20px;
+	margin-left: 320px;
+	z-index:4;
+	position:absolute;
+}
+#profile{
+	position:absolute;
+	top: 16px;
+	width: 100px;
+	margin-left: 75px;
+	z-index:2;
+	animation: rollIn;
+	animation-duration: 1s;
+}
+#recommendation{
+	position:absolute;
+	top: 110px;
+	width: 300px;
+	margin-left: 48.5px;
+	animation: fadeInUp;
+	animation-duration: 1s;
+}
+#key{
+	position:absolute;
+	top: 600px;
+	width: 300px;
+	margin-left: 48.5px;
+	animation: fadeInRight;
+	animation-duration: 1s;
+}
+#trip{
+	position:absolute;
+	top: 680px;
+	width: 300px;
+	margin-left: 48.5px;
+	animation: fadeInLeft;
+	animation-duration: 1s;
+}
+#codeswipe{
+	position:absolute;
+	bottom: 65px;
+	width: 300px;
+	margin-left: 48.5px;
+	animation: bounce;
+	animation-duration: 1s;
+}
+
+#walletcontent{
+	position:absolute;
+	top: 160px;
+	width: 360px;
+	margin-left: 17.5px;
+	animation: fadeIn;
+	animation-duration: 1s;
+}
+
+#generate{
+	position:absolute;
+	top: 600px;
+	width: 300px;
+	margin-left: 48.5px;
+	animation: fadeInRight;
+	animation-duration: 1s;
+}
+#redeem{
+	position:absolute;
+	top: 675px;
+	width: 300px;
+	margin-left: 48.5px;
+	animation: fadeInLeft;
+	animation-duration: 1s;
+}
+#paytransfer{
+	position:absolute;
+	top: 750px;
+	width: 300px;
+	margin-left: 48.5px;
+	animation: fadeInRight;
+	animation-duration: 1s;
+}
+
+#keyshare{
+	position:absolute;
+	top: 900px;
+	width: 300px;
+	margin-left: 48.5px;
+	animation: fadeInUp;
+	animation-duration: 1s;
+}
+
+.container {
+	scroll-snap-type: x mandatory;
+	
+	overflow-y: hidden;
+	overflow-x: scroll;
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+
+.child {
+	scroll-snap-align: center;
+	padding-right: 10px;
+	min-width: 280px;
+	height: inherit;
+	display: inline-block;
+	z-index:1;
+}
+
+.slide {
+	height: inherit;
+	margin-left: 8px;
+	margin-right: auto;
+}
+
+#recommendcontainer{
+	width: 275px;
+	height: 399px;
+	margin-left: 60px;
+	margin-right: auto;
+	margin-top: 128px;
+	display: flex;
+	animation: fadeInUp;
+	animation-duration: 1s;
+}
+
+#foryou{
+	margin-left: 283px;
+	width: 80px;
+	position: absolute;
+	top: 90px;
+}
+
+#not-top-bar{
+}
+
+#menupanel{
+	background-color: #131313;
+	width: 390px;
+	margin-left: 6px;
+	margin-right: auto;
+	height: 333px;
+	visibility:hidden;
+	z-index:3;
+	position:absolute;
+	top:-100%;
+	transition-property: top;
+	transition-duration: 1s;
+}
+
+#recommendcontainer > div:nth-child(2) { flex: 1; }
+
+.listView {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.listView li {
+	margin: 10px 0;
+	list-style-image: none;
+	list-style-type: none;
+}
+
+.listView li img {
+	width:200px;
+	margin-left: -29px;
+	margin-right: auto;
+}
+
+#profilenft3{
+	position: absolute;
+	top: 139px;
+	width: 268px;
+	margin-left: 64px;
+	animation: zoomIn;
+	animation-duration: 1s;
+}
+
+#profilenft2{
+	position: absolute;
+	top: 116px;
+	width: 310px;
+	margin-left: 43px;
+	animation: jackInTheBox;
+	animation-duration: 1s;
+}
+
+#profilenft1{
+	position: absolute;
+	top: 83px;
+	width: 360px;
+	margin-left: 17.5px;
+	animation: rotateIn;
+	animation-duration: 1s;
+}
+
+#profiletext{
+	margin-top: 485px;
+	width: 319px;
+	animation: fadeInUp;
+	animation-duration: 1s;
+}
+
+#tag-bar{
+	margin-left: 0px;
+	margin-top: 16px;
+	display: flex;
+	overflow: scroll;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+#menu-bar::-webkit-scrollbar {
+  display: none;
+}
+
+.foryou{
+	min-width: 130px;
+	animation: fadeInRight;
+	animation-duration: 1s;
+	margin-top: 15px;
+	margin-left: 8px;
+}
+
+#recommendedroute{
+	position: absolute;
+	top: 160px;
+	width: 360px;
+	margin-left: 17.5px;
+}
+#routeblock{
+	position: absolute;
+	top: -96px;
+	width: 360px;
+	margin-left: 17.5px;
+}
+
+#routepanel{
+	position: absolute;
+	top: 160px;
+	width: 360px;
+	margin-left: 17.5px;
+	animation: fadeInDown;
+	animation-duration: 1s;
+}
+
+#customizeroute{
+	position: absolute;
+	top: 560px;
+	width: 360px;
+	margin-left: 17.5px;
+	animation: fadeInDown;
+	animation-duration: 1s;
+}
+
+#routedeco{
+	position: absolute;
+	top: 398px;
+	width: 330px;
+	margin-left: 33px;
+	animation: fadeIn;
+	animation-duration: 1s;
+	z-index:-1;
+}
+
+#body{
+	max-width: 396px;
+	margin: auto;
+	
+}
+body{
+	background-color: #131313;
+}
